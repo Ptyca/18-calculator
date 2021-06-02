@@ -1,36 +1,69 @@
 .calculator {
-  
+    display: inline-block;
+    width: 285px;
+    position: absolute;
+    padding: 20px;
+    background-color: #9db4e2;
+    border: 1px solid #eff1f5;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    
   }
   
   .calculator > .screen {
-  
+    display: inline-block;
+    width: 100%;
+    height: 150px;
   }
   
   .calculator > .screen > .output {
-
+    text-align: right;
+    font-size: 40px;
+    width: 100%;
+    margin-top: 30px;
+    color: black;
   }
   
   .calculator > .screen > .input {
-   
+   text-align: right;
+   font-size: 20px;
+   width: 100%;
+   margin-top: 15px;
+   color: black;
+
   }
   
   .calculator > .keyboard {
-  
-  
+    display: inline-block;
+    width: 100%;
+  }
+
   .calculator > .keyboard > .button {
-  
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    color: black;
+    background-color: white;
+
   }
   
   .calculator > .keyboard > .button.light {
-  
+    background-color: #e0e2e6;
   }
   
   .calculator > .keyboard > .button.dark {
-   
+    background-color:#b2b3bb;
   }
   
   .calculator > .keyboard > .button.red {
-
+    background-color: red;
   }
   
   .calculator > .keyboard > .button.active {
