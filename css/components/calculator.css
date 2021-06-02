@@ -1,0 +1,38 @@
+.calculator {
+  
+  }
+  
+  .calculator > .screen {
+  
+  }
+  
+  .calculator > .screen > .output {
+
+  }
+  
+  .calculator > .screen > .input {
+   
+  }
+  
+  .calculator > .keyboard {
+  
+  
+  .calculator > .keyboard > .button {
+  
+  }
+  
+  .calculator > .keyboard > .button.light {
+  
+  }
+  
+  .calculator > .keyboard > .button.dark {
+   
+  }
+  
+  .calculator > .keyboard > .button.red {
+
+  }
+  
+  .calculator > .keyboard > .button.active {
+  }
+  
